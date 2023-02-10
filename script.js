@@ -1,6 +1,7 @@
 // Declare Variables
 
 const menuButton = document.getElementById('menu-button');
+const closeMenuButton = document.getElementById('close');
 const menu = document.getElementById('menu-id');
 
 // Create event listener functions
@@ -14,6 +15,8 @@ const hideMenu = () => {
 
 // Add event listeners to html elements
 menuButton.addEventListener('click', showMenu);
+
+closeMenuButton.addEventListener('click', hideMenu);
 
 const menuItems = document.getElementsByClassName('menu-item');
 for (let i = 0; i < menuItems.length; i += 1) {

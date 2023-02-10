@@ -406,6 +406,9 @@ main {
 #contact {
   padding: 10%;
 }
+.list-mobile {
+  font-family: "Roboto", sans-serif;
+}
 
 #contact h2 {
   font-family: "Inter", sans-serif;
